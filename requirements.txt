@@ -1,0 +1,2 @@
+notebook
+openmldb>=0.4.1

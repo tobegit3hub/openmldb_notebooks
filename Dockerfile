@@ -4,7 +4,8 @@ FROM python:3.9
 RUN apt-get update -y
 RUN apt-get install -y vim
 
-RUN pip3 install notebook
+ADD ./requirements.txt /requirements.txt
+RUN pip3 install -r /requirements.txt
 
 ADD ./notebooks/ /notebooks/
 
