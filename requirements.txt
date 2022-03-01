@@ -1,2 +1,2 @@
 notebook
-openmldb>=0.4.1
+openmldb>=0.4.2

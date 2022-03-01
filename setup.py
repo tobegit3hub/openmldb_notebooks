@@ -15,7 +15,7 @@ setup(
     classifiers=[
     ],
     install_requires=[
-        'openmldb>=0.4.1'
+        'openmldb>=0.4.2'
     ],
     include_package_data=True,
     zip_safe=False,
